@@ -1,4 +1,6 @@
+
 <?php 
+//plan d'accompagnement 
 class User {
     private $username ;
     private $Email ; 
@@ -14,7 +16,7 @@ class User {
 }
     $user1 = new User("john","john@mail.com");
 
-    echo $user1 ->afficherInfos();
+    echo $user1 ->afficherInfos(); 
 ?>
 <?php 
 class User {
