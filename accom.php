@@ -96,4 +96,3 @@ echo "Le visiteur peut-il créer un article ? " . ($userVisiteur->estAuteur() ? 
 ?>
 
 
-$article = new Article("Mon premier article", "Contenu du blog...");
